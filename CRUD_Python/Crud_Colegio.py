@@ -1,4 +1,3 @@
-from enum import Flag
 import json
 
 
@@ -140,7 +139,7 @@ def delete():
 
 def menu():
     while True:
-        option = input("\n**** Menu Colegio ****\n (1)Crear Alumno.\n (2)Listar Alumnos.\n (3)Actualizar Alumnos.\n (4)Borrar Alumnos.\n (5)Salir del Programa\n Digita la Opcion: ")
+        option = input("\n**** Menu Colegio ****\n (1)Crear Alumno.\n (2)Listar Alumnos.\n (3)Actualizar Alumnos.\n (4)Borrar Alumnos.\n (5)Salir del Programa\n Digita la Opcion: \n")
         
         if option == "1":
             create()
